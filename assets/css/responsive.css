@@ -1,0 +1,448 @@
+
+
+@media (max-width:450px) {
+    .footer-system {
+        margin-top: 8px;
+    }
+    .footer-system .system-btn {
+        font-size: 1.4rem;
+       
+    }
+
+    .footer-system .system-link i {
+        display: none;
+    }
+
+    .filter-list {
+        display: none;
+    }
+
+    .cart-details-btn button {
+        height: 36px;
+        font-size: 1.6rem;
+    }
+
+    .cart-form-user, .cart-option-payment {
+        padding: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .header-cart .cart-quanty {
+        left: 22px;
+        width: 26px;
+    }
+
+    .header-right i {
+        font-size: 2.4rem;
+    }
+
+    .header-logo-md img {
+        max-height: 32px;
+    }
+
+    .cart-box {
+        position: fixed !important;
+        min-width: 100% !important;
+        left: -300%;
+        top: 36px !important;
+    }
+
+    .header-cart .cart-box::before {
+        right: 34px !important;
+    }
+    .product-type-title {
+        display: none;
+    }
+    .product-type-number {
+        font-size: 2.4rem;
+    }
+    .product-type-price {
+        font-size: 1.6rem;
+    }
+    .product-type-combo {
+        display: none !important;
+    }
+    .product-main-left {
+        display: none !important;
+    }
+
+    .product-main-content h2 {
+        font-size: 1.8rem;
+    }
+    .product-main-content h3, .product-main-content h4, .product-main-content p {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+
+    .product-item {
+        margin-right: 0 !important;
+    }
+    .banner-btn-prev {
+        left: 20px;
+    }
+    .banner-btn-next {
+        right: 14px;
+    }
+
+    .question .accordion-button i {
+        display: none;
+    }
+
+    .question .accordion-button span {
+        font-size: 1.6rem;
+    }
+
+  
+    .question .accordion-item {
+        padding: 0;
+    }
+    .comment-btn {
+        position: initial;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+   
+}
+
+@media (min-width: 992px) {
+    .link {
+        background-image: linear-gradient(transparent calc(100% - 1px), #1d48ba 1px);
+        background-size: 0% 100%;
+        background-repeat: no-repeat;
+        transition: all 0.6s ease, -webkit-transform 0.6s ease;
+    }
+    .link:hover {
+        background-size: 100% 100%;
+    }
+
+    .product-item:hover {
+        box-shadow: 0 0 0 1px #325dcd !important;
+    }
+}
+
+@media (max-width: 991px ) {
+    .footer-system {
+        margin-top: 8px;
+    }
+    .header-bar {
+        display: flex;
+    }
+    .header .container {
+        width: 100% !important;
+        margin: 0 !important;
+        max-width: 992px;
+    }
+    .header-menu {
+        display: none;
+    }
+
+    .header-logo {
+        display: none;
+    }
+
+    .header-logo-md {
+        display: flex;
+    }
+
+    .header-search {
+        display: none;
+    }
+
+    .header-cart p {
+        display: none;
+    }
+
+    .search-group {
+        margin-top: 0;
+    }
+
+    .buy-item {
+        border: none;
+    }
+
+    .buy-name {
+        font-size: 1.4rem;
+        color: #334155 !important;
+        font-weight: 500;
+        text-transform: initial;
+    }
+
+    .buy-description {
+        display: none;
+    }
+
+    .buy-img {
+        max-width: 54px;
+        margin: auto;
+        flex-basis: 54px;
+    }
+    .buy-img img {
+        width: 100%;
+        height: 64px;
+        margin-bottom: 4px;
+    }
+
+    .buy-info {
+        flex-direction: column;
+    }
+    .buy-title h2 {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .banner-health .title-top {
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+        
+    }
+
+    .banner-health .title-bottom {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    .health-link {
+        flex-direction: column;
+    }
+
+    .health-img {
+        margin: 0 !important;
+    }
+
+    .banner-health .title {
+        margin-bottom: 12px;
+    }
+
+    .banner-health-item.col-4-d {
+        width: 33.333333% !important;
+        display: inline-block;
+        /* display: block; */
+    }
+
+    .health-text {
+        text-align: center;
+    }
+
+    .health-name {
+        font-size: 1.4rem;
+    }
+    .health-img {
+        width: 64px;
+        flex-basis: 64px;
+        margin: auto auto  12px !important;
+    }
+
+    .health-more-inline {
+        display: none;
+    }
+    .inline-none {
+        display: block;
+    }
+
+    .filter-box span {
+        display: none;
+    }
+
+    .post-box {
+        margin-bottom: 16px;
+    }
+
+    .post-link {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .post-img-link {
+        width: 108px;
+    }
+
+    .post-tag {
+        display: none;
+    }
+
+    .service-list {
+        flex-wrap: wrap;
+    }
+
+    .service-item.col-3-d {
+        width: 50%;
+        display: inline-flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .service-title {
+        font-size: 1.4rem !important;
+    }
+
+    .service {
+        padding: 16px 0px !important;
+    }
+
+    .system-link-inline {
+        display: none;
+    }
+
+    .system-link-none {
+        display: block !important;
+    }
+
+    .footer-system .system-link i {
+        font-size: 2rem !important;
+    }
+
+    .footer-list {
+        display: none;
+    }
+
+    .footer-address div {
+        font-size: 1.2rem !important;
+        text-align: left;
+    }
+
+    .footer-title {
+        padding: 12px 0px;
+    }
+
+    .footer-content .col-lg-4:not(:first-child) {
+        box-shadow: inset 0px 1px 0px #e4eaf1;
+    }
+
+    .footer-content .col-lg-4:hover .footer-list {
+        display: block;
+    }
+    .sick-banner-img {
+        display: none;
+    }
+
+    .detai-history {
+        font-size: 1.2rem !important;
+    }
+    .header.search-input {
+        display: none;
+    }
+
+    .inline {
+        display: block;
+    }
+    .header.active.search-input {
+        display: block;
+    }
+
+    .about-content-right {
+        display: none;
+    }
+
+    .about-banner {
+        background-image: url(../images/about-banner-2.png) ;
+        background-size: 100% 100%;
+        min-height: 504px;
+        padding-top: 14px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .about-banner-title {
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+
+    .about-banner-content {
+        width: 100%;
+        text-align: center;
+        transform: translateY(0);
+    }
+
+    .about-banner-img {
+        margin-top: 80px;
+        max-width: 320px;
+        margin: 80px auto 0px;
+    }
+
+    .about-banner-img img {
+        width: 100%;
+        height: 100%;
+       
+    }
+
+    .about-content {
+        margin-top: -196px;
+        position: relative;
+    }
+}
+
+
+
+@media (max-width:1200px) {
+
+    
+    .post-tag {
+        flex-wrap: wrap;
+    }
+    .post-tag-link {
+        margin: 4px !important;
+    }
+
+    .search-hot-list {
+        flex-wrap: wrap;
+        gap: 4px 0px;
+    }
+
+    .service-item::before {
+        display: none;
+    }
+
+    .service-title {
+        font-size: 1.6rem;
+    }
+
+    .service-desc {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:1400px ) {
+    .detai-history {
+        display: none;
+    }
+    .header-menu-list li .link {
+        font-size: 1.2rem !important;
+    }
+
+    .category-link {
+        flex-direction: column;
+    }
+
+    .category-img {
+        min-width: 100%;
+        flex-basis: 76px;
+    }
+
+    .category-img img {
+        width: 100%;
+    }
+
+    .category-text {
+        transform: translateX(0);
+        text-align: center;
+        padding: 8px;
+    }
+
+    .banner-health .title {
+        margin-right: 0;
+    }
+
+    .service-item::before {
+        right: -24px;
+    }
+
+    .header-text p {
+        font-size: 1.6rem;
+        margin-bottom: -8px;
+    }
+}
